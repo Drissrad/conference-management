@@ -1,0 +1,92 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.conference-card {
+  border-left: 4px solid #007bff;
+}
+
+.conference-card.academique {
+  border-left-color: #28a745;
+}
+
+.conference-card.commerciale {
+  border-left-color: #ffc107;
+}
+
+.keynote-card {
+  border-left: 4px solid #6f42c1;
+}
+
+.review-card {
+  border-left: 4px solid #17a2b8;
+}
+
+.stars {
+  color: #ffc107;
+  font-size: 1.2em;
+}
+
+.badge-academique {
+  background-color: #28a745;
+}
+
+.badge-commerciale {
+  background-color: #ffc107;
+  color: #333;
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+.btn-action {
+  margin-right: 5px;
+}
+
+.page-header {
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #e9ecef;
+}
+
+.stats-card {
+  text-align: center;
+  padding: 20px;
+}
+
+.stats-card h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.error-message {
+  color: #dc3545;
+  padding: 20px;
+  text-align: center;
+}
+
+.success-message {
+  color: #28a745;
+}
+

@@ -11,6 +11,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/keynotes")
 @RequiredArgsConstructor
+@CrossOrigin("*")
 public class KeynoteRestController {
 
     private final KeynoteService service;

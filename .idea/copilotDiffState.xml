@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/gateway-service/src/main/resources/application.properties">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/gateway-service/src/main/resources/application.properties" />
+              <option name="originalContent" value="spring.application.name=gateway-service&#10;server.port=9999&#10;&#10;# Eureka Client&#10;spring.cloud.discovery.enabled=true&#10;eureka.client.service-url.defaultZone=http://localhost:8761/eureka/&#10;eureka.instance.prefer-ip-address=true&#10;&#10;# Config Server&#10;spring.cloud.config.enabled=false&#10;&#10;# Gateway Discovery&#10;spring.cloud.gateway.discovery.locator.enabled=true&#10;spring.cloud.gateway.discovery.locator.lower-case-service-id=true&#10;&#10;# CORS Configuration for React Frontend&#10;spring.cloud.gateway.globalcors.cors-configurations.[/**].allowed-origins=http://localhost:3000&#10;spring.cloud.gateway.globalcors.cors-configurations.[/**].allowed-methods=GET,POST,PUT,DELETE,OPTIONS&#10;spring.cloud.gateway.globalcors.cors-configurations.[/**].allowed-headers=*&#10;spring.cloud.gateway.globalcors.cors-configurations.[/**].allow-credentials=true&#10;&#10;# Actuator&#10;management.endpoints.web.exposure.include=*&#10;" />
+              <option name="updatedContent" value="spring.application.name=gateway-service&#10;server.port=9999&#10;&#10;# Eureka Client&#10;spring.cloud.discovery.enabled=true&#10;eureka.client.service-url.defaultZone=http://localhost:8761/eureka/&#10;eureka.instance.prefer-ip-address=true&#10;&#10;# Config Server&#10;spring.cloud.config.enabled=false&#10;&#10;# Gateway Discovery&#10;spring.cloud.gateway.discovery.locator.enabled=true&#10;spring.cloud.gateway.discovery.locator.lower-case-service-id=true&#10;&#10;# Actuator&#10;management.endpoints.web.exposure.include=*&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
