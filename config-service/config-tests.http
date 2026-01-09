@@ -1,0 +1,42 @@
+### Config Service - Tests HTTP
+
+### 1. Health check
+GET http://localhost:8888/actuator/health
+
+###
+
+### 2. Get Keynote Service configuration
+GET http://localhost:8888/keynote-service/default
+
+###
+
+### 3. Get Conference Service configuration
+GET http://localhost:8888/conference-service/default
+
+###
+
+### 4. Get Gateway Service configuration
+GET http://localhost:8888/gateway-service/default
+
+###
+
+### 5. Get Application global configuration
+GET http://localhost:8888/application/default
+
+###
+
+### 6. Get all Actuator endpoints
+GET http://localhost:8888/actuator
+
+###
+
+### 7. Get Actuator info
+GET http://localhost:8888/actuator/info
+
+###
+
+### 8. Get Environment details
+GET http://localhost:8888/actuator/env
+
+###
+
